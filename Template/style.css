@@ -1,0 +1,101 @@
+                                .template-nav {
+                                    background-color: yellow;
+                                    outline: 4px solid black;
+                                }
+                                
+                                .template-header {
+                                    background-color: red;
+                                    outline: 4px solid black;
+                                }
+                                
+                                .template-top-section {
+                                    background-color: green;
+                                    outline: 4px solid black;
+                                }
+                                
+                                .template-body1 {
+                                    background-color: blue;
+                                    outline: 4px solid black;
+                                }
+                                
+                                .template-body2 {
+                                    background-color: orange;
+                                    outline: 4px solid black;
+                                }
+                                
+                                .template-body3 {
+                                    background-color: purple;
+                                    outline: 4px solid black;
+                                }
+                                
+                                .template-contact {
+                                    background-color: pink;
+                                    outline: 4px solid black;
+                                }
+                                
+                                .template-footer {
+                                    background-color: gray;
+                                    outline: 4px solid black;
+                                }
+                                
+                                .template-container {
+                                    text-align: center;
+                                    text-shadow: 10px 10px 10px black;
+                                    font-weight: bold;
+                                    font-size: 2rem;
+                                    padding: 1rem;
+                                    width: 100vw;
+                                    height: 100vh;
+                                    margin: 0 auto;
+                                    background-color: whitesmoke;
+                                    outline: 8px solid black;
+                                    display: grid;
+                                    justify-content: center;
+                                    grid-template-columns: 600px 600px;
+                                    grid-template-rows: 50px 60px 300px 50px 400px 50px 50px 50px;
+                                    /* grid-template-areas: "nav nav" "header header" "top-section top-section" "sidebar content" "sidebar content" "footer footer" "contact contact"; */
+                                }
+                                
+                                .template-nav {
+                                    /* grid-area: nav; */
+                                    /* grid-column: 1/-1; */
+                                    grid-column: span 2;
+                                }
+                                
+                                .template-top-section {
+                                    /* grid-area: top-section; */
+                                    /* grid-column: 1/-1; */
+                                    grid-column: span 2;
+                                }
+                                
+                                .template-header {
+                                    /* grid-area: header; */
+                                    /* grid-column: 1/-1; */
+                                    grid-column: span 2;
+                                }
+                                
+                                .template-body1 {
+                                    /* grid-area: sidebar; */
+                                    /* grid-row-start: 4;
+                                    grid-row-end: 8; */
+                                    grid-row: span 4;
+                                }
+                                
+                                .template-body2 {
+                                    /* grid-area: content; */
+                                    /* grid-row-start: 4;
+                                    grid-row-end: 8; */
+                                    grid-row: span 4;
+                                }
+                                
+                                .template-contact {
+                                    /* grid-area: contact; */
+                                    /* grid-column: 1/-1; */
+                                    grid-column: span 2;
+                                }
+                                
+                                .template-footer {
+                                    /* grid-area: footer; */
+                                    /* grid-column: 1/-1; */
+                                    grid-column: span 2;
+                                }
